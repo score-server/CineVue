@@ -1,4 +1,4 @@
-# cinevue
+# CineVue
 
 > new website with VueJS
 
