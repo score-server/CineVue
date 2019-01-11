@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-md p-3 px-md-4 mb-3 border-bottom shadow-sm">
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="#/">
         <img src="https://i.imgur.com/0UYRu82.png" class="d-inline-block align-top nav-logo" alt="nav brand">
         MovieScore
       </a>

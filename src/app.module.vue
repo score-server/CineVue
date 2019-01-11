@@ -13,8 +13,8 @@
 </template>
 
 <script>
-  import Navigation from './components/navigation'
-  import Foot from './components/footer'
+  import Navigation from './app/shared/components/navigation.component'
+  import Foot from './app/shared/components/footer.component'
 export default {
   name: 'App',
   components: {
