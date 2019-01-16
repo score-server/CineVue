@@ -5,4 +5,4 @@
 </template>
 
 <script src="./home.controller.js"></script>
-<style src="./home.style.css"></style>
+<style src="../assets/css/home.style.css"></style>

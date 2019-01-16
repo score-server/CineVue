@@ -6,4 +6,4 @@
 </template>
 
 <script src="./movie-overview.controller.js"></script>
-<style src="./movie-overview.style.css"></style>
+<style src="../assets/css/movie-overview.style.css"></style>
