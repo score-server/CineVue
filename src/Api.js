@@ -4,7 +4,7 @@
  * @created 06.02.2018
  **/
 
-const root = 'http://scorewinner:8082/';
+const root = 'http://scorewinner:8082';
 
 const Api = {
 
@@ -23,6 +23,7 @@ const Api = {
    */
 
   COMMENT_MOVIE: (movieId, comment) => `${root}/comment/add/movie?movieId=${movieId}&comment=${comment}`,
+
   COMMENT_EPISODE: (episodeId, comment) => `${root}/comment/add/episode?episodeId=${episodeId}&comment=${comment}`,
 
   /*

@@ -1,7 +1,17 @@
+export default class ApiService {
+
+}
+
 export function get(apiPath, sessionid) {
-  this.$http.get('http://scorewinner.ch:8081' + apiPath + '?sessionId=' + sessionid).then((data) => {
-    this.data = data;
-  });
-  console.log(this.data);
-  return this.data
+  var returnVal = $.ajax({
+    url: 'https://api.coindesk.com/v1/bpi/currentprice.json',
+    method: 'GET',
+    error: function (error) {
+      alert(error);
+    }
+  }).responseText;
+
+  console.log(returnVal);
+
+  return returnVal;
 }
