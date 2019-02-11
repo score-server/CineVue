@@ -4,7 +4,7 @@
  * @created 06.02.2018
  **/
 
-const root = 'http://scorewinner:8082';
+const root = 'http://scorewinner.ch:8082';
 
 const Api = {
 
