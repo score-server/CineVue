@@ -1,3 +1,5 @@
+import Api from "../../Api";
+
 export default {
   data() {
     return {
@@ -8,7 +10,7 @@ export default {
   mounted: function () {
     var self = this;
     $.ajax({
-      url: 'https://api.coindesk.com/v1/bpi/currentprice.json',
+      url: Api.MOVIE_LIST(1, "", "", ""),
       method: 'GET',
       success: function (data) {
         self.movieData = JSON.parse(data);

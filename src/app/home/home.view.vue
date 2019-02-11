@@ -1,11 +1,11 @@
 <template>
   <div>
     <h1>Hello World</h1>
-    {{ name }}
+    {{ movieData }}
     <br>
-    <i>{{ movieData.disclaimer }}</i>
-    <br>
-    <b>{{ movieData.bpi.USD.description }}</b>
+    <!--<div v-for="movie in movieData.movies">-->
+      <!--<p>{{ movie.title }}</p>-->
+    <!--</div>-->
   </div>
 </template>
 
